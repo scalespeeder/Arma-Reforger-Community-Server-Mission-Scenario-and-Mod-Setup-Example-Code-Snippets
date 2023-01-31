@@ -1,4 +1,4 @@
-Arma Reforger Config JSON Snippets To Add Custom Scenarios & Mods For Nitrado Community Servers, PC & Xbox Consoles Changelog & Terms Of Use
+Arma Reforger Config JSON Snippet Examples To Add Custom Scenarios & Mods For Nitrado Community Servers, PC & Xbox Consoles Changelog & Terms Of Use
 
 Limited Testing on PC & Xbox Arma Reforger  Version 0.9.7.61 Jan 2023.
 
@@ -25,6 +25,11 @@ functioning of your server.
 This json snippets are to be copy and pasted into the correct part of your Arma Reforger Servers Config File, config.json .
 
 There are two main sections you can use, CUSTOM SCENARIOS and MODS. You can mix and match these to get the gameplay experience you require.
+
+The "scenario ID" of mods is a little tricky to find. You need to subscribe to the mod in the in-game Reforger Workshop on your PC, then find the mod folder in your local drive,
+somewhere like: C:\Users\scale\OneDrive\Documents\My Games\ArmaReforger\addons . You can get the sepearate (and different) Mod ID from the Arma Reforger online workshop:  https://reforger.armaplatform.com/workshop 
+once you have the Mod ID, seach your \ArmaReforger\addons folder for that name. When you find the correct add-on, open the folder and open the "ServerData.json" file in a text editor. You will then see the ""gameId"
+value, and this is what you use for the "scenarioId" you can see in the examples below.
 
 ----
 
