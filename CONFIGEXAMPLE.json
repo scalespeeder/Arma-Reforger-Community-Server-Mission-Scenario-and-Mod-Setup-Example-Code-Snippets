@@ -1,0 +1,68 @@
+{
+    "dedicatedServerId": "nitrado_ni2841581_10",
+    "region": "EU-FFM",
+    "gameHostBindAddress": "85.190.160.130",
+    "gameHostBindPort": 30000,
+    "gameHostRegisterBindAddress": "85.190.160.130",
+    "gameHostRegisterPort": 30001,
+    "game": {
+        "name": "Scalespeeder Server",
+        "password": "A",
+        "scenarioId": "{D5FCE4CD8185A90F}Missions/SniperValley.conf",
+        "playerCountLimit": 10,
+        "visible": true,
+        "gameMode": "Sniper Vally E1",
+        "gameProperties": {
+            "serverMaxViewDistance": "1600",
+            "serverMinGrassDistance": "0",
+            "networkViewDistance": "500",
+            "battlEye": true,
+            "disableThirdPerson": false
+        },
+        "mods": [
+            {
+                "modId": "598F29CA3E99EF0B",
+                "name": "Sniper-Stories-1",
+                "version": ""
+            },
+            {
+                "modId": "59F44B92BEFF0CED",
+                "name": "Better Vehicles",
+                "version": ""
+            },
+            {
+                "modId": "59D64ADD6FC59CBF",
+                "name": "BlackHawk",
+                "version": ""
+            },
+            {
+                "modId": "5AAF6D5352E5FCAB",
+                "name": "Project Redline Core",
+                "version": ""
+            },
+            {
+                "modId": "59664C0CB36501CD",
+                "name": "BLOODLUST2",
+                "version": ""
+            },
+            {
+                "modId": "59A30ACC02650E71",
+                "name": "NIGHT VISION SYSTEM",
+                "version": ""
+            },
+            {
+                "modId": "59673B6FBB95459F",
+                "name": "Better-Tracers",
+                "version": ""
+            }
+        ],
+        "autoJoinable": false,
+        "supportedGameClientTypes": [
+            "PLATFORM_PC",
+            "PLATFORM_XBL"
+        ]
+    },
+    "a2sQueryEnabled": true,
+    "steamQueryPort": 30001,
+    "adminPassword": "S"
+}

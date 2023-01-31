@@ -1,0 +1,147 @@
+Arma Reforger Config JSON Snippets To Add Custom Scenarios & Mods For Nitrado Community Servers, PC & Xbox Consoles Changelog & Terms Of Use
+
+Limited Testing on PC & Xbox Arma Reforger  Version 0.9.7.61 Jan 2023.
+
+Created by @scalespeeder. Please report bugs & errors to scalespeeder@gmail.com with screenshots.
+
+TERMS OF USE
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
+OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH
+THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Using these json snippets  could break the functioning of your Arma Reforger server, requiring a reinstall that would wipe
+all player progress.
+
+Using these modded json files & snippets may neccessitate increased regular restarts to prevent server crashing.
+
+It is suggested you thoroughly test your server after applying these files & snippets to ensure proper
+functioning of your server.
+
+---------------------------------------------
+
+This json snippets are to be copy and pasted into the correct part of your Arma Reforger Servers Config File, config.json .
+
+There are two main sections you can use, CUSTOM SCENARIOS and MODS. You can mix and match these to get the gameplay experience you require.
+
+----
+
+CUSTOM SCENARIO: EDEN SNIPER STORIES E1
+
+Replace the entire "scenarioId" line with the below LINE to have your server start with the relevant scenario mission:
+
+"scenarioId": "{D5FCE4CD8185A90F}Missions/SniperValley.conf",
+
+Place the below snippet inbetween the [ ] brackets in the Mods line (  "mods": [] ) to make your server start with the relevant mod.
+
+IF THIS IS THE ONLY MOD, OR THE LAST MOD, DO NOT INCLUDE THE LAST COMMA (,)
+ 
+ {
+                "modId": "598F29CA3E99EF0B",
+                "name": "Sniper-Stories-1",
+                "version": ""
+            },
+			
+CUSTOM SCENARIO: EDEN SNIPER STORIES E2
+
+Replace the entire "scenarioId" line with the below LINE to have your server start with the relevant scenario mission:
+
+"scenarioId": "{5A687CE570156C88}Missions/SniperEpisodes.conf",
+
+Place the below snippet inbetween the [ ] brackets in the Mods line (  "mods": [] ) to make your server start with the relevant mod.
+
+IF THIS IS THE ONLY MOD, OR THE LAST MOD, DO NOT INCLUDE THE LAST COMMA (,)
+ 
+ {
+                "modId": "5991085B294612BE",
+                "name": "Sniper-Stories-2",
+                "version": ""
+            },
+			
+CUSTOM SCENARIO: EDEN SNIPER STORIES E3
+
+Replace the entire "scenarioId" line with the below LINE to have your server start with the relevant scenario mission:
+
+"scenarioId": "{7EBD2248A29F109C}missions/SniperValleyE3.conf",
+
+Place the below snippet inbetween the [ ] brackets in the Mods line (  "mods": [] ) to make your server start with the relevant mod.
+
+IF THIS IS THE ONLY MOD, OR THE LAST MOD, DO NOT INCLUDE THE LAST COMMA (,)
+ 
+ {
+                "modId": "59A9224D5F9B1E70",
+                "name": "Sniper-Stories-3",
+                "version": ""
+            },	
+			
+CUSTOM SCENARIO: EDEN SNIPER STORIES E4
+
+Replace the entire "scenarioId" line with the below LINE to have your server start with the relevant scenario mission:
+
+"scenarioId": "{F081FB0F3AF8C0E5}Missions/Sniper Valley E4.conf",
+
+Place the below snippet inbetween the [ ] brackets in the Mods line (  "mods": [] ) to make your server start with the relevant mod.
+
+IF THIS IS THE ONLY MOD, OR THE LAST MOD, DO NOT INCLUDE THE LAST COMMA (,)
+ 
+ {
+                "modId": "59AD3EDE09510C70",
+                "name": "Sniper-Stories-4",
+                "version": ""
+            },				
+			
+
+--------
+
+MODS
+
+This is a list of common, useful mods that work well on PC & Xbox. Remember that Xbox cannot handle too many mods, and it will make it difficult for console
+players to join your server if you have too many mods.
+
+Add or remove mods to taste, but be aware of any dependancies bewteen mods. See the Arma Reforger online Mod Workshop for details and for modId numbers: https://reforger.armaplatform.com/workshop
+
+Place the below snippet inbetween the [ ] brackets in the Mods line (  "mods": [] ) and below your custom mission sceario mod if you're using one.
+
+PLEASE NOTE THAT AT THE END OF THE LAST MOD THERE IS NO CLOSING COMMA ( , ) AFTER THE CLOSING BRACKET ( } ) 
+
+			{
+                "modId": "59F44B92BEFF0CED",
+                "name": "Better Vehicles",
+                "version": ""
+            },
+            {
+                "modId": "59D64ADD6FC59CBF",
+                "name": "BlackHawk",
+                "version": ""
+            },
+            {
+                "modId": "5AAF6D5352E5FCAB",
+                "name": "Project Redline Core",
+                "version": ""
+            },
+			 {
+                "modId": "59664C0CB36501CD",
+                "name": "BLOODLUST2",
+                "version": ""
+            },
+			 {
+                "modId": "59A30ACC02650E71",
+                "name": "NIGHT VISION SYSTEM",
+                "version": ""
+            },
+            {
+                "modId": "59673B6FBB95459F",
+                "name": "Better-Tracers",
+                "version": ""
+            }
+
+
+IF YOU GET CONFUSED AT ANY POINT PLEASE REFER TO THE CONFIGEXAMPLE.json file included in the Github repository to clarify where the code snippets go.
+
+Save your file, restart your server and you'll have a custom mission scenario to play with your friends.
+
+After completing a mission you may have to restart your server for the mission to reset.
+
+Thanks, Rob.
